@@ -1,0 +1,7 @@
+{
+  "name": "SmsPushAppCinta",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
