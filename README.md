@@ -1,0 +1,2 @@
+# SmsPushAppCinta-s
+ionic/angular
