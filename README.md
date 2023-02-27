@@ -82,6 +82,26 @@ constructor(private oneSignal: OneSignal) {}
     this.oneSignal.endInit();
   }
 ```
+## ![androide36](https://user-images.githubusercontent.com/71487857/199188171-195d30ba-e4b6-4f3f-bea1-bbf09369c70a.jpg) LEVANTAR APP EN ANDROID
+
+```
+1º Capacitor
+  ionic capacitor add android
+2º Para actualizar android
+  ionic capacitor copy android
+3aº Levantar en movil
+  ionic capacitor run android
+            ó
+3bº ionic capacitor run android -l --external
+```
+## 🔎 Herramientas de desarrollo
+
+```
+More tools --> remote deivces
+*Si no lo encuentro escribo esto :
+chrome://inspect/#devices
+*En Port forwarding... poner el puerto (localhost:8100) y darle a done
+```
 
 
 
