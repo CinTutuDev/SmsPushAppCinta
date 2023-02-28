@@ -8,12 +8,13 @@ import { PushService } from './services/push.service';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor(private push: PushService,  private platform: Platform,) {  this.iniApp(); }
+  constructor(private push: PushService,  
+    private platform: Platform,) { 
+      this.initializeApp();}
 
-  iniApp() {
+      initializeApp() {
     this.platform.ready().then(() => {
-      
-      this.push.confInit();
+      this.push.oneSignalInit();
     });
   }
 }
