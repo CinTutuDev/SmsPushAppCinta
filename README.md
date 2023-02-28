@@ -124,7 +124,7 @@ chrome://inspect/#devices
   ]
 })
 export class AppModule { }
-
+```
 * Para usar en servicio es:
 
 ```
