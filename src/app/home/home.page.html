@@ -6,12 +6,21 @@
 
 <ion-content padding>
   <ion-list>
+
+    <ion-list-header>
+      <ion-label>UserID</ion-label>
+    </ion-list-header>
+    <ion-item>
+      <ion-label>{{ push.userId }}</ion-label>
+    </ion-item>
+
+
     <ion-list-header>
       <ion-label>Mensajes de push</ion-label>
       <!--   <ion-button>See All</ion-button> -->
     </ion-list-header>
 
-    <ion-item *ngFor="let i of push.sms">
+    <ion-item *ngFor="let i of mensajes">
       <ion-label>
         <h3>{{i.title}}</h3>
         <p>{{i.body}}</p>
