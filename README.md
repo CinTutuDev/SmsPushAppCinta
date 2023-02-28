@@ -125,4 +125,9 @@ chrome://inspect/#devices
 })
 export class AppModule { }
 
+* Para usar en servicio es:
 
+```
+import { Storage } from '@ionic/storage-angular';
+constructor(private storage: Storage) 
+```
